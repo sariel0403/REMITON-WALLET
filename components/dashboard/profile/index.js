@@ -7,9 +7,9 @@ import styles from "./style";
 const Profile = () => {
   return (
     <View style={styles.container}>
-      <Avatar.Text size={150} label="JK" />
-      <Text style={{ color: "white", fontSize: 50 }}>Jack King</Text>
-      <Text style={{ color: "#2c2f43", fontSize: 25 }}>12345678</Text>
+      <Avatar.Text size={150} label="JK" style={styles.avatar} />
+      <Text style={styles.username}>Jack King</Text>
+      <Text style={styles.routnumber}>12345678</Text>
     </View>
   );
 };

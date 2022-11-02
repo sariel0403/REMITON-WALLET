@@ -9,7 +9,7 @@ import Transfer from "./pages/transfer";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Register />
+      <Dashboard />
     </View>
   );
 }
