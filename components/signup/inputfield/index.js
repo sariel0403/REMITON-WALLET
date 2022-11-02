@@ -4,10 +4,10 @@ import { TextInput } from "react-native-paper";
 
 import styles from "./style";
 
-const InputField = () => {
+const RegisterField = () => {
   const [password, setPassword] = React.useState("");
   const [username, setUsername] = React.useState("");
-  const [securePwd, setSecurePwd] = React.useState(true);
+  const [confirmPassword, setConfirmPassword] = React.useState("");
 
   return (
     <View style={styles.container}>
@@ -21,25 +21,26 @@ const InputField = () => {
         label="Password"
         value={password}
         onChangeText={(newPassword) => setPassword(newPassword)}
-        secureTextEntry={securePwd}
-        right={
-          <TextInput.Icon
-            icon={securePwd == true ? "eye" : "eye-off"}
-            onPress={() => setSecurePwd(!securePwd)}
-          />
-        }
         style={styles.passwordInput}
       />
+      <TextInput
+        label="Confirm Password"
+        value={confirmPassword}
+        onChangeText={(newConfirmPassword) =>
+          setConfirmPassword(newConfirmPassword)
+        }
+        style={styles.confirmPasswordInput}
+      />
       <View style={styles.inline}>
-        <View style={styles.signinBtn}>
-          <Button title="Sign In" />
-        </View>
         <View style={styles.signupBtn}>
-          <Button color="#f194ff" title="Sign Up" />
+          <Button title="Sign Up" />
+        </View>
+        <View style={styles.signinBtn}>
+          <Button color="#f194ff" title="Sign In" />
         </View>
       </View>
     </View>
   );
 };
 
-export default InputField;
+export default RegisterField;
