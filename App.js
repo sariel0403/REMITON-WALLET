@@ -9,7 +9,7 @@ import Transfer from "./pages/transfer";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Transfer />
+      <Login />
     </View>
   );
 }
@@ -17,7 +17,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#4F5267",
+    backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
   },

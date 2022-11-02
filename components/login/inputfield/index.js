@@ -16,6 +16,7 @@ const InputField = () => {
         value={username}
         onChangeText={(newUsername) => setUsername(newUsername)}
         style={styles.usernameInput}
+        mode="outlined"
       />
       <TextInput
         label="Password"
@@ -28,6 +29,7 @@ const InputField = () => {
             onPress={() => setSecurePwd(!securePwd)}
           />
         }
+        mode="outlined"
         style={styles.passwordInput}
       />
       <View style={styles.inline}>
