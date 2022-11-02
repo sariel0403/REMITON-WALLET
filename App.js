@@ -4,11 +4,12 @@ import { StyleSheet, Text, View } from "react-native";
 import Login from "./pages/login";
 import Register from "./pages/register/index";
 import Dashboard from "./pages/dashboard";
+import Transfer from "./pages/transfer";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Dashboard />
+      <Transfer />
     </View>
   );
 }
