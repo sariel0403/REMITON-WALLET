@@ -8,15 +8,14 @@ import Transfer from "./pages/transfer";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Transfer />
-    </View>
+    // <View style={styles.container}>
+    <Dashboard />
+    // </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
