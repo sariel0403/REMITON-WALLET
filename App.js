@@ -6,11 +6,12 @@ import Register from "./pages/register/index";
 import Dashboard from "./pages/dashboard";
 import Transfer from "./pages/transfer";
 import Fund from "./pages/fund";
+import Withdraw from "./pages/withdraw";
 
 export default function App() {
   return (
     // <View style={styles.container}>
-    <Fund />
+    <Withdraw />
     // </View>
   );
 }
