@@ -4,9 +4,11 @@ const styles = StyleSheet.create({
   container: { width: 300 },
   addressField: {
     marginBottom: 20,
+    backgroundColor: "white",
   },
   amountField: {
     marginBottom: 20,
+    backgroundColor: "white",
   },
   selectCurrencyUnit: {
     flexDirection: "row",
@@ -17,7 +19,7 @@ const styles = StyleSheet.create({
   },
   currencyUnit: {
     marginTop: 8,
-    color: "white",
+    color: "#00B4F0",
   },
   left: {
     width: "50%",
