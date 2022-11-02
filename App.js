@@ -5,11 +5,12 @@ import Login from "./pages/login";
 import Register from "./pages/register/index";
 import Dashboard from "./pages/dashboard";
 import Transfer from "./pages/transfer";
+import Fund from "./pages/fund";
 
 export default function App() {
   return (
     // <View style={styles.container}>
-    <Transfer />
+    <Fund />
     // </View>
   );
 }
