@@ -16,12 +16,14 @@ const RegisterField = () => {
         value={username}
         onChangeText={(newUsername) => setUsername(newUsername)}
         style={styles.usernameInput}
+        mode="outlined"
       />
       <TextInput
         label="Password"
         value={password}
         onChangeText={(newPassword) => setPassword(newPassword)}
         style={styles.passwordInput}
+        mode="outlined"
       />
       <TextInput
         label="Confirm Password"
@@ -30,6 +32,7 @@ const RegisterField = () => {
           setConfirmPassword(newConfirmPassword)
         }
         style={styles.confirmPasswordInput}
+        mode="outlined"
       />
       <View style={styles.inline}>
         <View style={styles.signupBtn}>

@@ -6,12 +6,15 @@ const styles = StyleSheet.create({
   },
   usernameInput: {
     marginTop: 20,
+    backgroundColor: "white",
   },
   passwordInput: {
     marginTop: 20,
+    backgroundColor: "white",
   },
   confirmPasswordInput: {
     marginTop: 20,
+    backgroundColor: "white",
   },
   inline: {
     marginTop: 20,
