@@ -8,7 +8,7 @@ import styles from "./style";
 
 const Login = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Logo />
       <InputField />
     </View>

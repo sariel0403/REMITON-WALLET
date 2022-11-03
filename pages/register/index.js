@@ -8,7 +8,7 @@ import styles from "./style";
 
 const Register = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Logo />
       <RegisterField />
     </View>

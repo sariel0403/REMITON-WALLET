@@ -9,11 +9,7 @@ import Fund from "./pages/fund";
 import Withdraw from "./pages/withdraw";
 
 export default function App() {
-  return (
-    // <View style={styles.container}>
-    <Withdraw />
-    // </View>
-  );
+  return <Withdraw />;
 }
 
 const styles = StyleSheet.create({
